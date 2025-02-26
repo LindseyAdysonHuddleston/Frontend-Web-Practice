@@ -36,7 +36,7 @@ button:hover {
   opacity: 90%;
 }
 
-/* Shared utility classes */
+/* Utility */
 
 .hidden {
   display: none !important;

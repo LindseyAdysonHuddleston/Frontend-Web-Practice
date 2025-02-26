@@ -29,7 +29,7 @@ export default function App() {
   const resetGame = (isNewRound) => {
     setState((prevState) => {
       const stateCopy = structuredClone(prevState);
-      // If game is complete, archive it to history object
+      // If game is complete, archive 
       if (game.status.isComplete) {
         const { moves, status } = game;
         stateCopy.history.currentRoundGames.push({

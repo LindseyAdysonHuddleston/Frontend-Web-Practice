@@ -62,7 +62,6 @@ main {
   font-size: 2rem;
   z-index: 5;
   background-color: #1a2a3278;
-  /*  backdrop-filter: blur(10px);*/
 }
 
 .restart-after-win {
@@ -95,16 +94,11 @@ main {
   justify-content: space-between;
 }
 
-/* .top * {
-    display: inline;
-} */
-
 .clearScore {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  /* margin-left: 20px; */
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -153,7 +147,6 @@ main {
 .fa-x {
   color: #3cc4bf;
   padding-right: 5px;
-  /*padding-left: 20px; */
   font-size: 20px;
 }
 
@@ -171,7 +164,6 @@ main {
 .bottom {
   width: 100%;
   height: 50px;
-  /* margin-bottom: 20px; */
 }
 
 .bottom ul {

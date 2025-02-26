@@ -28,7 +28,7 @@ const winningPatterns = [
   [7, 8, 9],
 ];
 
-//add click event to each box
+//click event
 boxes.forEach((box) => {
   box.addEventListener(
     "click",
@@ -81,7 +81,7 @@ boxes.forEach((box) => {
   );
 });
 
-//keep track of score, testing innerText
+//score count, testing innerText
 if (!sessionStorage.getItem("p1Score")) {
   sessionStorage.setItem("p1Score", 0);
 }
@@ -115,8 +115,6 @@ function addPlayerTwoScore() {
   playerTwoScore++;
   sessionStorage.setItem("p2Score", playerTwoScore);
 }
-
-//end of sesh
 
 restartBtn.addEventListener("click", restartAndClear);
 
